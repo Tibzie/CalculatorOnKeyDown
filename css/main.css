@@ -1,0 +1,143 @@
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color:#005e7b;
+	background-color: rgba(203,215,222, 0.2);
+}
+
+
+/* ---------------------------------------------------- */
+
+#description {
+	width: 40%;
+	text-align: justify;
+	margin-bottom: 60px;
+	padding: 20px 50px;
+}
+#description h1 {
+	margin-top: 0;
+}
+#description p {
+	font-size: 1.6em;
+
+}
+.instructions {
+	font-size: 1.15em;
+	font-weight: bold;
+}
+/* ---------------------------------------------------- */
+
+#description, #form {
+	float: left;
+}
+
+#form {
+	margin-top: 20px;
+	width: 40%;
+}
+#information {
+	width: 100%;
+}
+#row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+table {
+	height: 600px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	width: 100px;
+	height: 70px;
+	text-align: center;
+	font-size: 2.5em;
+	background-color: #d2941e;
+	color: #ececec;
+	border: none;
+	border-bottom: 5px solid #333;
+}
+.button:hover {
+	transition: 300ms ease-in-out;
+	cursor: pointer;
+	background-color: #dfb461;
+}
+#sc {
+	visibility: hidden;
+}
+.textbox {
+	width: 100%;
+	font-size: 2.5em;
+	padding: 5px 15px 5px 15px;
+	border: 5px solid transparent;
+	background-color: #d8e1e6;
+	border-bottom: 5px solid #8e8e8e;
+}
+.equal {
+	width: 100px;
+	height: 70px;
+	text-align: center;
+	font-size: 2.5em;
+	background-color: #424242;
+	color: #ececec;
+	border: none;
+	border-bottom: 5px solid #333;
+}
+.equal:hover {
+	transition: 300ms ease-in-out;
+	cursor: pointer;
+	background-color: #848484;
+}
+.layoutbutton {
+	width: 100px;
+	height: 70px;
+	text-align: center;
+	font-size: 2.5em;
+	background-color: #313f4f;
+	color: #ececec;
+	cursor: pointer;
+	border: none;
+	border-bottom: 5px solid #333;
+}
+.layoutbutton:hover {
+	transition: 300ms ease-in-out;
+	background-color: #5a6572;
+}
+.specialbutton {
+	width: 100px;
+	height: 70px;
+	text-align: center;
+	font-size: 2.5em;
+	background-color: #795d0e;
+	color: #ececec;
+	cursor: pointer;	
+	border: none;
+	border-bottom: 5px solid #333;
+}
+.specialbutton:hover {
+	transition: 300ms ease-in-out;
+	background-color: #937d3e;
+}
+
+/* ------------------------------------------ */
+#copyright {
+	height: 200px;
+	width: 100%;
+	text-align: center;
+	background-color: #2d2d2d;
+	padding-top: 50px;
+	line-height: 40px;
+	color: #c1c1c1;
+}
+#copyright a {
+	color: #eaeaea;
+}
+#copyright a:hover {
+	transition: 300ms ease-in-out;
+	color: #d2941e;
+}

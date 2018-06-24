@@ -1,0 +1,104 @@
+<html>
+
+<head>
+
+	<link href="css/main.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="js/main.js"> </script>
+
+</head>
+
+
+
+<body onkeydown="Characters()">
+	<section id="row"> 
+		<div id="information">
+			<div id="description">
+				<h1>OnKeyDown Calculator</h1>
+				<p>As the title suggests, this calculator enables users to calculate different (and multiple) mathematical operations by 
+					pressing the keys on the keyboard.
+				</p>
+				<hr>
+				<div class="instructions">
+					The keys:<br />
+						<ul>
+							<li>Self explanatory:<br/>
+							<span style="color:#333333;">0 1 2 3 4 5 6 7 8 9 + - * / .</span></li>
+							<span style="color:#333333; font-size: 0.7em;">Numbers work with alphanumeric (left part of keyboard) and numeric keys (right)</span>.
+							<li>Equal sign (=):<span style="color:#333333;"> Enter</span> </li>
+							<li>Clear (C): <span style="color:#333333;">c</span></li>
+							<li>Delete a character (&#9003;): <span style="color:#333333;">Backspace</span></li>
+							<li>Scientific layout (Sci): <span style="color:#333333;">s - Shows this layout.</span></li>
+							<li>Standard layout (Sta): <span style="color:#333333;">a - Shows this layout.</span></li>
+							<li>Sine (sin): <span style="color:#333333;">v</span></li>
+							<li>Cosinus (cos): <span style="color:#333333;">b</span></li>
+							<li>Tangent (tan): <span style="color:#333333;">n</span></li>
+						</ul>
+					<hr>
+					<span style="color: #aa8214;">Note: </span><span style="font-weight: normal; color: #aa8214;">It's not built for multiple platforms.</span>
+					</p>	
+				</div>
+			</div>
+		</div>
+
+		<form id="form" name="Form">
+			<table>
+				<tr>
+					<td colspan="5"><input class="textbox" type="text"  id="textbox" name="textbox" disabled></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" class="layoutbutton" id="buttonSci" value="Sci"></td> 
+					<td><input type="button" class="layoutbutton" id="buttonSta" value="Sta"></td>				
+					<td><input type="button" class="specialbutton" id="buttonC" value="C"></td>
+					<td><input type="button" class="specialbutton" id="buttonDel" value="&#9003;"></td>
+					<td><input type="button" class="equal" id="buttonEqual" value="="></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="button" id="button1" value="1"></td>
+					<td><input type="button" class="button" id="button2" value="2"></td>
+					<td><input type="button" class="button" id="button3" value="3"></td>		
+					<td><input type="button" class="button" id="button4" value="4"></td>
+					<td><input type="button" class="specialbutton" id="buttonPlus" value="+"></td>
+				</tr>
+				<tr>		
+					<td><input type="button" class="button" id="button5" value="5"></td>
+					<td><input type="button" class="button" id="button6" value="6"></td>
+					<td><input type="button" class="button" id="button7" value="7"></td>
+					<td><input type="button" class="button" id="button8" value="8"></td>		
+					<td><input type="button" class="specialbutton" id="buttonMinus" value="-"></td>		
+				</tr>
+				<tr>
+
+					<td><input type="button" class="button" id="button9" value="9"></td>
+					<td><input type="button" class="button" id="button0" value="0"></td>
+					<td><input type="button" class="specialbutton" id="buttonDot" value="."></td>
+					<td><input type="button" class="specialbutton" id="buttonDivision" value="/"></td>
+					<td><input type="button" class="specialbutton" id="buttonMultiplication" value="*"></td>
+				</tr>
+
+				<tr id="sc"> <!-- this is the scientific layout -->
+					<td><input type="button" class="specialbutton" id="buttonSin" value="sin"></td>
+					<td><input type="button" class="specialbutton" id="buttonCos" value="cos"></td>
+					<td><input type="button" class="specialbutton" id="buttonTan" value="tan"></td>
+				</tr>
+			</table>
+		</form>
+	</section>
+	<section id="copyright">
+		&copy
+		<script>
+			var dteNow = new Date();
+			var intYear = dteNow.getFullYear();
+			document.write(intYear);
+		</script> - Tibor Gazsovics<br />
+
+		<a href="https://github.com/Tibzie">Follow me on Github</a><br />
+		<a href="www.tiborgazsovics.com">My online portfolio</a>
+	</section>
+
+</body>
+
+
+
+</html>
