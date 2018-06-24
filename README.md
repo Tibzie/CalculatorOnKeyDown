@@ -6,7 +6,7 @@ CalculatorOnKeyDown
 About the project
 ---
 
-It was one of my assignment that I was required to do at QA Consulting as a trainee.
+It was one of my assignments that I was required to do at QA Consulting as a trainee.
 In order to use the calculator, users need to press down keys to interact with the project.
 The website also includes a section next to the calculator which keys can be pressed and which key belongs to which character (numbers, operators etc.)
 
