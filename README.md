@@ -22,3 +22,16 @@ I have done some extra research on how to represent visually when a button is pr
 When I first created the on keydown calculator, it consisted of fewer buttons.
 Therefore, I felt it's necessary to add a few more to make it more *"user-friendly"*.
 For example, deleting a character, clearing the screen and allowing users to do advanced calculator features.
+
+---
+
+Learned
+---
+
+I learned how to effectively use OnKeyDown method effectively as well using JavaScript with HTML and CSS.
+
+
+Future improvements
+---
+
+Adding new buttons and adding validation.
